@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: demo-csv-linter
+Version: 0.0.1
+Summary: demo python CLI tool to lint csv files
+Author: Alfredo Deza
+Requires-Dist: click==7.1.2
+Requires-Dist: pandas==1.0.4

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "demo-csv-linter"
+version = "0.0.1"
+description = "demo python CLI tool to lint csv files"
+authors = [
+    { name = "Alfredo Deza" }
+]
+dependencies = [
+    "click==7.1.2",
+    "pandas==1.0.4"
+4
+
+[project.scripts]
+csv-linter = "csv_linter.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
